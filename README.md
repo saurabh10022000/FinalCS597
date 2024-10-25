@@ -1,34 +1,49 @@
-**Project Overview:**
+# AI-Based Coding Learning Platform
 
-The landscape of programming education is undergoing rapid transformation, where conventional learning platforms often come with significant costs and time commitments. Our project aims to revolutionize programming education by harnessing cutting-edge technologies to offer an accessible, free, and self-directed learning experience. With a focus on democratizing access to programming knowledge, our platform integrates various functionalities to cater to diverse learning needs and preferences.
+## Overview
+The **AI-Based Coding Learning Platform** is designed to democratize programming education by offering a free, personalized, and self-directed learning experience. It integrates cutting-edge technologies like machine learning to tailor learning paths based on individual needs, helping learners of all levels master programming.
 
-**Functionalities:**
+## Features
+- **Personalized Learning Paths**: Tailored courses and tutorials based on user proficiency and goals.
+- **Multi-Language Support**: Learn and practice multiple programming languages.
+- **AI Instructor**: Powered by OpenAI's GPT-3, offering real-time assistance, explanations, and code snippets.
+- **Code Review & Evaluation**: Users receive constructive feedback on coding projects.
+- **Quizzes**: Interactive quizzes reinforce understanding and assess progress.
+- **Project Repository**: Hands-on project ideas across multiple domains and difficulty levels.
 
-1. **Personalized Learning Path:** Users can customize their learning journey based on their skill level, interests, and learning goals.
-   
-2. **Multi-Language Support:** The platform supports multiple programming languages, enabling learners to explore and master a wide range of languages.
-   
-3. **Project Ideas:** Users can access a repository of project ideas spanning different domains and difficulty levels, fostering hands-on learning and creativity.
-   
-4. **Code Review and Evaluation:** The platform facilitates code review and evaluation, providing constructive feedback to learners to enhance their coding proficiency.
-   
-5. **Quiz Portal:** An interactive quiz portal offers learners the opportunity to test their understanding and reinforce concepts through quizzes and assessments.
-   
-6. **AI Instructor:** Leveraging OpenAI's GPT-3 Model API and Machine Learning algorithms, an AI instructor provides personalized assistance, explanations, and suggestions to learners, enhancing their learning experience.
+## Tools & Technologies
+- **Frontend**: HTML, CSS, JavaScript, Vite.
+- **Backend**: Node.js, Express.js.
+- **AI Integration**: GPT-3 Model API for interactive learning support.
+- **Version Control**: Git, GitHub for collaboration and tracking changes.
 
-**Technologies Used:**
+## Installation Instructions
+1. Clone the repository:
+    ```bash
+    git clone <https://github.com/saurabh10022000/FinalCS597/edit/main/README.md>
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Configure environment variables in `.env`:
+    ```bash
+    PORT=5001
+    API_KEY=your_api_key_here
+    ```
+4. Start the development servers:
+    - Frontend: `npm run dev`
+    - Backend: `npm start`
 
-- OpenAI GPT-3 Model API
-- Machine Learning (ML)
-- Large Language Model (LLM)
-- Web Technologies:
-  - HTML and CSS
-  - Node.js
-  - JavaScript
-  - Vite
+5. Open a browser and navigate to `http://localhost:5001`.
 
-**Submitted To:**
-Professor Lidia Morrison
+## Conclusion
+This platform addresses accessibility, cost, and inclusivity barriers in traditional programming education, making learning more engaging and personalized for all.
 
-**Submitted By:**
-Saurabh Jain - 885202812
+## Future Work
+- Expand language and content offerings.
+- Enhance AI capabilities for deeper, contextualized learning.
+- Foster community collaboration and peer support.
+
+## References
+See project documentation for references on tools and APIs used.
